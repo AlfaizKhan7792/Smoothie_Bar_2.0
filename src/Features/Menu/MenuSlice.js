@@ -32,12 +32,13 @@ const MenuSlice = createSlice({
         },
 
         UpdateQuantity : (state , action) =>{
-            const {id , amount} = action.payload
-            return {
-                ...state,
-                Card_Items : state.Card_Items.map((item) => item.id === id ? {...item , quantity : item.quantity + amount} : item)
-            }
-            // localStorage.setItem("cardItems", JSON.stringify(state.Card_Items))
+            const {id , amount} = action.payload                
+    state.Card_Items = state.Card_Items.map((item) => 
+        item.id === id ? { ...item, quantity: item.quantity + amount } : item
+    );
+
+    // Update localStorage
+    localStorage.setItem("cartItems", JSON.stringify(state.Card_Items));
         }
     },
     extraReducers : (builder) =>{
@@ -69,7 +70,7 @@ export default MenuSlice.reducer
 
 export const Fetch = createAsyncThunk("FETCH/DATA", async () =>{
     try {
-        const fetchData = await fetch("http://localhost:5001/Users")
+        const fetchData = await fetch("http://localhost:5005/Users")
         const data = fetchData.json()
         return data
     } catch (error) {

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Navbar from './components/Navbar'
-import { BrowserRouter as Router , Routes , Route } from 'react-router-dom'
+import { HashRouter as Router , Routes , Route } from 'react-router-dom'
 import PageNotFound from './Pages/PageNotFound'
 import LoginPage from './Pages/LoginPage'
 import RegisterPage from './Pages/RegisterPage'

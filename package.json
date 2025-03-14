@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "data": "set PORT=5001 && json-server --watch ./db.json",
+    "data": "set PORT=5005 && json-server --watch ./db.json",
     "start": "concurrently \"npm run dev\" \"npm run data\""
   },
   "dependencies": {
