@@ -1,0 +1,41 @@
+{
+    "Users": [
+      { 
+    "id": 1, 
+    "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdREp0Gm-Bub-O3MR1vqTwH2y570HwqzsQAQ&s",
+    "name": "Classic Berry", 
+    "price": 60,
+    "add_ons" : ["Chia Seeds", "Honey"],
+    "quantity" : 1
+    },
+      { "id": 2, 
+      "image" : "https://images.stockcake.com/public/a/3/e/a3ee6ec0-97ba-463d-87f7-0b2af61c0fd5_large/tropical-mango-drink-stockcake.jpg",
+      "name": "Troppical Mango", 
+      "price": 70,
+      "add_ons" : ["Almond Milk", "Chia Seeds"] ,
+      "quantity" : 1
+    },
+    { "id": 3, 
+    "image" : "https://milex.co.za/cdn/shop/articles/Classic_Green_Detox_Juice_1024x.webp?v=1738153530",
+    "name": "Green Detox", 
+    "price": 80,
+    "add_ons" : ["Protein", "Chia Seeds", "Honey"] ,
+    "quantity" : 1
+  },
+  { "id": 4, 
+  "image" : "https://eatthegains.com/wp-content/uploads/2021/08/Chocolate-Protein-Smoothie-6.jpg",
+  "name": "Chocolate Power", 
+  "price": 90,
+  "add_ons" : ["Almond Milk", "Protein"] ,
+  "quantity" : 1
+},
+{ "id": 5, 
+"image" : "https://joyfoodsunshine.com/wp-content/uploads/2021/12/banana-peanut-butter-smoothie-recipe-5.jpg",
+"name": "Peanut Butter Banana", 
+"price": 100,
+"add_ons" : ["Almond Milk", "Protein", "Honey"] ,
+"quantity" : 1
+}
+    ]
+  }
+  
